@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-class remoreLampu {
+class remotLampu {
 private:
 	string saklarNo[10];
 public:
@@ -13,18 +13,3 @@ public:
 	}
 };
 
-int main() {
-	remoreLampu lampuRumah;
-
-	lampuRumah.setSaklarNo(0, "Lampu Teras Rumah");
-	lampuRumah.setSaklarNo(1, "Lampu Ruang Tamu"); 
-	lampuRumah.setSaklarNo(2, "Lampu Kamar Tidur");
-	lampuRumah.setSaklarNo(3, "Lampu Dapur");
-
-	cout << lampuRumah.getSaklarNo(0) << endl;
-	cout << lampuRumah.getSaklarNo(0) << endl;
-	cout << lampuRumah.getSaklarNo(0) << endl;
-	cout << lampuRumah.getSaklarNo(0) << endl;
-
-	return 0;
-}
