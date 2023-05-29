@@ -51,4 +51,4 @@ int main() {
 	cout << andi.perkenalan();
 	return 0;
 }
-
+ 
