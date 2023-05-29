@@ -4,7 +4,7 @@ using namespace std;
 class baseClass final {
 public:
 	virtual void perkenalan() {
-		cout<<"Hallo saya Funtion dari base class";
+		cout << "Hallo saya Funtion dari base class";
 	}
 };
 
@@ -20,4 +20,4 @@ int main() {
 	a.perkenalan();
 
 	return 0;
-}   
+}
